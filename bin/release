@@ -48,3 +48,4 @@ if [ ! -f $BUILD_DIR/Procfile ] && [ -d $BUILD_DIR/target ]; then
 fi
 
 echo `date "+%Y-%m-%d"`
+echo "  web: java -Dserver.port=\$PORT \$JAVA_OPTS -jar $jarFile"
