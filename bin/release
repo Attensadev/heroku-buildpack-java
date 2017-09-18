@@ -47,4 +47,4 @@ if [ ! -f $BUILD_DIR/Procfile ] && [ -d $BUILD_DIR/target ]; then
   done
 fi
 
-echo `date "+%Y-%m-%dT%H:%M:%S"`
+echo `date "+%Y-%m-%dT-H-%M"`
